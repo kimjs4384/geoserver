@@ -1126,4 +1126,28 @@ public class GeoServerTileLayer extends TileLayer implements ProxyLayer {
         // TODO Auto-generated method stub
         return null;
     }
+
+	@Override
+	public boolean isAdvertised() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isTransientLayer() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setAdvertised(boolean arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setTransientLayer(boolean arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 }
