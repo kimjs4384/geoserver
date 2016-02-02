@@ -16,4 +16,14 @@
       <property name="icon" value="img/information.png" />
       <property name="order" value="10" />
     </bean>
+    
+     <bean id="InfoPage" class="org.geoserver.web.MenuPageInfo">
+      <property name="id" value="InfoPage"/>
+      <property name="titleKey" value="InfoPage.page.title"/>
+      <property name="descriptionKey" value="InfoPage.page.description"/>
+      <property name="componentClass" value="org.geoserver.page.InfoPage"/>
+      <property name="category" ref="gaiaCategory"></property>
+      <property name="icon" value="img/information.png" />
+      <property name="order" value="20" />
+    </bean>
 </beans>
