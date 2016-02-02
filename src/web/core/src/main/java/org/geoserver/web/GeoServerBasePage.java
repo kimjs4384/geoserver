@@ -43,6 +43,7 @@ import org.geoserver.catalog.Catalog;
 import org.geoserver.config.GeoServer;
 import org.geoserver.ows.util.CaseInsensitiveMap;
 import org.geoserver.ows.util.KvpUtils;
+import org.geoserver.page.HomePage;
 import org.geoserver.platform.GeoServerExtensions;
 import org.geoserver.security.GeoServerSecurityManager;
 import org.geoserver.web.spring.security.GeoServerSession;
@@ -91,6 +92,9 @@ public class GeoServerBasePage extends WebPage implements IAjaxIndicatorAware {
 
 	@SuppressWarnings("serial")
     public GeoServerBasePage() {
+		
+		add(new HomePage("panelInGeoServerHomePage"));
+		
         //add css and javascript header contributions
 	    ResourceReference faviconReference = null;
         List<HeaderContribution> cssContribs = 
