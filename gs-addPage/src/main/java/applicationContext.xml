@@ -2,7 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 
  <beans>
- 	<bean id="gaiaCategory" class="org.geoserver.web.Category">
+ <!--  <bean id="gaiaCategory" class="org.geoserver.web.Category">
     <property name="nameKey" value="gaiaCategory.title" />
     <property name="order" value="10" />
   </bean> 
@@ -25,5 +25,5 @@
       <property name="category" ref="gaiaCategory"></property>
       <property name="icon" value="img/information.png" />
       <property name="order" value="20" />
-    </bean>
+    </bean>  -->	
 </beans>
