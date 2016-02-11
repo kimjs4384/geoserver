@@ -3,7 +3,9 @@
 
 div#header h2 a{
 	
-	background: url(../img/gaialogo.png) no-repeat;
+	background: url(../img/logo.png) no-repeat;
+	
+	width : 450px;
 }
 
 /*ul#navigation>li {
