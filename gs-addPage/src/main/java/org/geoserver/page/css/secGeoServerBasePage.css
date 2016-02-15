@@ -132,6 +132,10 @@ input.btnTxt:hover {
 	border : none;
 }
 
+div#capabilities {
+	display : none;
+}
+
 em, dfn {font-style:normal;}
 
 
