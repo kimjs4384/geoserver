@@ -12,7 +12,7 @@
   <groupId>org.geoserver</groupId>
   <artifactId>gs-addPage</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>2.7-SNAPSHOT</version>
   <name>gs-addPage</name>
 
   <dependencies>
