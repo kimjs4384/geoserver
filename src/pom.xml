@@ -95,6 +95,11 @@
 
  <dependencyManagement>
   <dependencies>
+  <dependency>
+    <groupId>org.geoserver</groupId>
+    <artifactId>gs-addPage</artifactId>
+    <version>${gs.version}</version>
+   </dependency>
    <dependency>
     <groupId>org.geoserver</groupId>
     <artifactId>gs-platform</artifactId>
