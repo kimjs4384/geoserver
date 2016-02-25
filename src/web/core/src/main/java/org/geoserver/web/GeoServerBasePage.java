@@ -94,9 +94,10 @@ public class GeoServerBasePage extends WebPage implements IAjaxIndicatorAware {
     public GeoServerBasePage() {
 		
 		add(new HomePage("panelInGeoServerHomePage"));
+		ResourceReference faviconReference = new ResourceReference(HomePage.class, "gs.ico");
 		
         //add css and javascript header contributions
-	    ResourceReference faviconReference = null;
+	    //ResourceReference faviconReference = null;
         List<HeaderContribution> cssContribs = 
             getGeoServerApplication().getBeansOfType(HeaderContribution.class);
         for (HeaderContribution csscontrib : cssContribs) {

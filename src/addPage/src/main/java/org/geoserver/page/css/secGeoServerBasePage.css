@@ -5,7 +5,8 @@ div#header h2 a{
 	
 	background: url(../img/logo.png) no-repeat;
 	
-	width : 450px;
+	width : 500px;
+	height: 70px;
 }
 
 /*ul#navigation>li {
