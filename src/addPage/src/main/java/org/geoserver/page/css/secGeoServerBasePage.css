@@ -4,9 +4,13 @@
 div#header h2 a{
 	
 	background: url(../img/logo.png) no-repeat;
-	
-	width : 500px;
+	background-size: 215px;
+	width : 250px;
 	height: 70px;
+	
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 /*ul#navigation>li {
@@ -47,8 +51,9 @@ a:hover {
 #header {
 	border-top: 3px solid #526199;
 	border-bottom : 1px dotted #526199;
+    padding-top: 0px;
 	background : #f5f7fb;
-	height : 70px;
+	height : 80px;
 }
 
 #main {
@@ -95,7 +100,7 @@ tr.even:hover th {
 /* button css */
 
 #header .button-group{
-	padding : 3em 0 0;	
+	padding : 4em 0 0;	
 }
 
 .button-group a,
